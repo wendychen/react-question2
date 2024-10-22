@@ -1,0 +1,65 @@
+/* Calendar Layout */
+.calendar {
+  font-size: 16px;
+  width: 350px;
+  height: 240px;
+}
+
+/* Header */
+.calendar .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  height: 44px;
+  align-items: center;
+}
+
+/* Month Selection */
+.calendar .monthSelect {
+  background-color: white;
+  width: 44px;
+  height: 44px;
+}
+.calendar .monthSelect:hover {
+  background-color: #e6e6e6;
+}
+
+/* Day Button */
+.calendar .days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.calendar .dayButton {
+  height: 36px;
+}
+.calendar .dayButton:hover {
+  background-color: #e6e6e6;
+  color: #000000;
+  cursor: pointer;
+}
+.calendar .dayButton:focus {
+  color: #e6e6e6;
+  background-color: #006edc;
+}
+
+/* Day States */
+.calendar .today {
+  background-color: #ffff76;
+}
+.calendar .dayInRange {
+  color: #e6e6e6;
+  background-color: #006edc;
+}
+.calendar .nonCurrentMonthDay {
+  color: #757575;
+}
+.calendar .nonCurrentMonthDay:hover {
+  cursor: not-allowed;
+  color: #757575;
+  background-color: white;
+}
+.calendar .nonCurrentMonthDay:focus {
+  cursor: not-allowed;
+  color: #757575;
+  background-color: white;
+}
