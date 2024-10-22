@@ -29,11 +29,8 @@ cd react-question2
 2. Install dependencies:
 
 ```
-npm create vite@latest
 npm install
 ```
-
-Please choose 'react' and 'javasript' if needed.
 
 3. Running the development server:
 
