@@ -22,8 +22,8 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
-cd <your-project-directory>
+git clone https://github.com/wendychen/react-question2.git
+cd react-question2
 ```
 
 2. Install dependencies:
